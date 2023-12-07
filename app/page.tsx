@@ -1,4 +1,4 @@
-import AcmeLogo from '@/app/ui/acme-logo';
+import AcmeLogo from '@/app/ui/decentracode-logo';
 import styles from '@/app/ui/home.module.css';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
