@@ -9,8 +9,8 @@ export default function DecentracodeLogo() {
     >
       <Image
       src='/favicon.png'
-      width={80}
-      height={80}
+      width={40}
+      height={40}
       className='hidden md:block'
       alt='Decentracode'
       />
