@@ -1,4 +1,4 @@
-import supabase from '@/app/lib/supabase';
+// import supabase from '@/app/lib/supabase';
 
 import CardWrapper from '@/app/ui/dashboard/cards';
 // import { Card } from '@/app/ui/dashboard/cards';
@@ -12,7 +12,7 @@ import { RevenueChartSkeleton, LatestInvoicesSkeleton, CardsSkeleton } from '@/a
 export const revalidate = 0;
 
 export default async function Page() {
-    const { data } = await supabase.from("postst").select();
+    // const { data } = await supabase.from("postst").select();
     // const revenue = await fetchRevenue();
     // const latestInvoices = await fetchLatestInvoices();
     // const {
@@ -26,7 +26,7 @@ export default async function Page() {
         <main>
             <h1 className={ `${lusitana.className} mb-4 text-x1 md:text-2x1 `}>
                 Dashboard
-                <pre>{JSON.stringify(data, null, 2)}</pre>
+                {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
             </h1>
             {/* <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
                 <Suspense fallback={<CardsSkeleton />}>
